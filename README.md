@@ -12,3 +12,5 @@ dataset rows converted to text documents-> Tokenization-> vocab building-> skip-
 I used the artificial questions(pqa_artificial) part of the dataset and due to my laptop's limited capacity, used only the first 300 rows out of 9000 for implementation.
 
 This repository includes an embeddings file that shows all the word embeddings and a vocab file that provides mapping between word and its numeric ID's used by the model.
+
+test.py is the python code to view the word embeddings. This can't be done in notepad as it is a binary file.
