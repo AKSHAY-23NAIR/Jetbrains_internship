@@ -81,7 +81,7 @@ def main():
         shuffle=True
     )
 
-    
+    print('saving files')
     np.save("word_embeddings.npy", model.get_embeddings())
 
    
@@ -89,7 +89,7 @@ def main():
         for i in range(len(id_to_word)):
             f.write(f"{i}\t{id_to_word[i]}\n")
 
-    
+    print('files saved')
     test_words = ["question", "knowledge", "phospholipases", "mitochondria"]
 
     print("\nNearest neighbors:")
